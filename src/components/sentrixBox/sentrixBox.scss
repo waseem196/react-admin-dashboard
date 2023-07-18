@@ -1,0 +1,51 @@
+.sentrixBox {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  //   p10px
+
+  .logo {
+    font-size: 16px;
+    font-weight: bold;
+
+    span {
+      font-size: 19px;
+      color: red;
+    }
+  }
+
+  .title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .percentage {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    .box {
+      width: 100%;
+      border: 1px solid lightseagreen;
+      border-radius: 5px;
+
+      .dot {
+        height: 5px;
+        background-color: orangered;
+        width: 62%;
+        border-radius: 5px;
+      }
+    }
+    .number {
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+
+  .link {
+    color: orangered;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

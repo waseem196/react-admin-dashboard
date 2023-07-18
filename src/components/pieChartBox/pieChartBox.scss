@@ -1,0 +1,90 @@
+.pieChartBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  height: 100%;
+
+  .sales {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+
+    h3 {
+      font-size: 18px;
+    }
+
+    .line {
+      height: 1px;
+      background-color: rgb(222, 222, 222);
+      width: 95%;
+      margin: 0 auto;
+    }
+  }
+
+  .schedule {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 12px;
+
+    span:hover {
+      cursor: pointer;
+    }
+
+    span {
+      padding: 4px 10px;
+    }
+
+    .decorated {
+      background-color: rgb(98, 79, 225);
+      padding: 4px 10px;
+      border-radius: 10px;
+      color: white;
+    }
+  }
+
+  .chartInfo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+
+    .chart {
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  .summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+
+    .description {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      align-items: center;
+      justify-content: center;
+
+      .text {
+        font-size: 16px;
+        color: rgb(222, 222, 222);
+        font-weight: bold;
+      }
+
+      .number {
+        font-size: 14px;
+        color: black;
+        font-weight: bold;
+      }
+    }
+  }
+}

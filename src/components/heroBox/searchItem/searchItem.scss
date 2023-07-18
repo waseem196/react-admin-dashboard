@@ -1,0 +1,24 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 160px;
+  padding: 8px 16px;
+
+  input[type='text'] {
+    outline: none;
+    padding: 5px;
+    border: none;
+    background-color: rgb(241, 239, 239);
+
+    &::placeholder {
+      font-size: 12px; /* Change the size to your desired value */
+    }
+  }
+
+  .text {
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
